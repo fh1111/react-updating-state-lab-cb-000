@@ -34,8 +34,8 @@ class YouTubeDebugger extends React.Component {
       }),
     });
 
-    /* 
-      Or this can be defined as 
+    /*
+      Or this can be defined as
       this.setState({
         settings: {
           ...this.state.settings,
@@ -51,14 +51,14 @@ class YouTubeDebugger extends React.Component {
   render() {
     return (
       <div>
-        <button 
-          className="bitrate" 
+        <button
+          className="bitrate"
           onClick={this.handleChangeBitrate}
         >
           Change bitrate
         </button>
-        <button 
-          className="resolution" 
+        <button
+          className="resolution"
           onClick={this.handleChangeResolution}
         >
           Change resolution
